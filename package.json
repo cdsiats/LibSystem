@@ -1,0 +1,35 @@
+{
+	"name": "libsystem",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@popperjs/core": "^2.11.8",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.27.4",
+		"autoprefixer": "^10.4.14",
+		"daisyui": "^4.4.19",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"pocketbase": "^0.19.0",
+		"postcss": "^8.4.24",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^3.0.0",
+		"prettier-plugin-tailwindcss": "^0.4.1",
+		"sass": "^1.63.6",
+		"svelte": "^4.2.7",
+		"tailwindcss": "^3.3.2",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"date-fns": "^2.30.0"
+	}
+}
