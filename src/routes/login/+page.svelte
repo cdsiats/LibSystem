@@ -1,3 +1,7 @@
+<script>
+	import { page } from '$app/stores';
+</script>
+
 <div class="flex flex-col justify-center items-center h-screen w-full">
 	<h1 class="text-3xl font-bold">Login</h1>
 	<form method="POST" class="form-control w-1/3">
@@ -7,4 +11,8 @@
 		<input type="password" class="input input-bordered" id="password" name="password" />
 		<button class="btn btn-primary mt-4">Login</button>
 	</form>
+
+	{#if $page.form?.status}
+		<small class="text-error">{$page.form?.message}</small>
+	{/if}
 </div>

@@ -5,7 +5,7 @@
 </script>
 
 <div class="w-2/3 h-fit flex flex-col gap-2 border border-gray-500 rounded-md p-4">
-	<p>Borrowed Books</p>
+	<p>Book List</p>
 
 	<div>
 		<table class="table">

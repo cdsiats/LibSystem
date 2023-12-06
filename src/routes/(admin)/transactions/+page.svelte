@@ -1,6 +1,7 @@
 <script>
 	import { format, parseISO } from 'date-fns';
 	export let data;
+	export let form;
 
 	let { transactions } = data;
 </script>
@@ -43,4 +44,7 @@
 			</tbody>
 		</table>
 	</div>
+	{#if form?.err}
+		<small class="text-error">{form?.err}</small>
+	{/if}
 </div>
